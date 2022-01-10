@@ -1,0 +1,20 @@
+{"testCaseName":"Test Cases/Chat/Chat starred","testCaseId":"Test Cases/Chat/Chat starred"}
+{"testCaseName":"Test Cases/Chat/Chat with group","testCaseId":"Test Cases/Chat/Chat with group"}
+{"testCaseName":"Test Cases/Chat/Chat private","testCaseId":"Test Cases/Chat/Chat private"}
+{"testCaseName":"Test Cases/Chat/Search user and chat","testCaseId":"Test Cases/Chat/Search user and chat"}
+{"testCaseName":"Test Cases/Chat/Cancel add contact","testCaseId":"Test Cases/Chat/Cancel add contact"}
+{"testCaseName":"Test Cases/Chat/Add contact","testCaseId":"Test Cases/Chat/Add contact"}
+{"testCaseName":"Test Cases/Chat/Accept contact","testCaseId":"Test Cases/Chat/Accept contact"}
+{"testCaseName":"Test Cases/Chat/Remove a contact","testCaseId":"Test Cases/Chat/Remove a contact"}
+{"testCaseName":"Test Cases/Chat/Cancel block user","testCaseId":"Test Cases/Chat/Cancel block user"}
+{"testCaseName":"Test Cases/Chat/Block user","testCaseId":"Test Cases/Chat/Block user"}
+{"testCaseName":"Test Cases/Chat/Cancel unblock user","testCaseId":"Test Cases/Chat/Cancel unblock user"}
+{"testCaseName":"Test Cases/Chat/Unblock user","testCaseId":"Test Cases/Chat/Unblock user"}
+{"testCaseName":"Test Cases/Chat/Delete conversation (message with another user)","testCaseId":"Test Cases/Chat/Delete conversation (message with another user)"}
+{"testCaseName":"Test Cases/I1/Create a event user type (event button)","testCaseId":"Test Cases/I1/Create a event user type (event button)"}
+{"testCaseName":"Test Cases/I1/Create a event site type (event button)","testCaseId":"Test Cases/I1/Create a event site type (event button)"}
+{"testCaseName":"Test Cases/I1/Create a event course type (event button)","testCaseId":"Test Cases/I1/Create a event course type (event button)"}
+{"testCaseName":"Test Cases/I1/Create a event category type (event button)","testCaseId":"Test Cases/I1/Create a event category type (event button)"}
+{"testCaseName":"Test Cases/I2/View my profile","testCaseId":"Test Cases/I2/View my profile"}
+{"testCaseName":"Test Cases/I2/Cancel edit profile","testCaseId":"Test Cases/I2/Cancel edit profile"}
+{"testCaseName":"Test Cases/I2/Edit my profile","testCaseId":"Test Cases/I2/Edit my profile"}

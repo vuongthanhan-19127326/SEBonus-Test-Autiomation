@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__icon fa fa-smile-o fa-fw</name>
+   <tag></tag>
+   <elementGuidId>4d92327b-1cf8-4f42-b160-cc8e32713caf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='message-drawer-61d5592ff072961d5592fe14357']/div[4]/div/div/div[2]/div/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon fa fa-smile-o fa-fw </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;message-drawer-61d5592ff072961d5592fe14357&quot;)/div[@class=&quot;footer-container position-relative&quot;]/div[@class=&quot;border-top bg-white position-relative&quot;]/div[@class=&quot;p-sm-2&quot;]/div[@class=&quot;d-flex mt-sm-1&quot;]/div[@class=&quot;position-relative d-flex flex-column&quot;]/button[@class=&quot;btn btn-link btn-icon icon-size-3 ml-1&quot;]/i[@class=&quot;icon fa fa-smile-o fa-fw&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='message-drawer-61d5592ff072961d5592fe14357']/div[4]/div/div/div[2]/div/button/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div/button/i</value>
+   </webElementXpaths>
+</WebElementEntity>

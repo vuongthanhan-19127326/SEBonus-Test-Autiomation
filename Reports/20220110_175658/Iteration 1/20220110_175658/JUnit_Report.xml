@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Iteration 1" time="2361.653" tests="20" failures="0" errors="0">
+   <testsuite name="Iteration 1" tests="20" failures="0" errors="0" time="2361.653" skipped="0" timestamp="2022-01-10 17:57:05" hostname="antra - 192.168.16.1" id="Test Suites/Iteration 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\antra\\git\\SEBonus-Test-Autiomation\\Reports\\20220110_175658\\Iteration 1\\20220110_175658"/>
+         <property name="logFiles" value="C:\\Users\\antra\\git\\SEBonus-Test-Autiomation\\Reports\\20220110_175658\\Iteration 1\\20220110_175658\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\antra\\git\\SEBonus-Test-Autiomation\\Reports\\20220110_175658\\Iteration 1\\20220110_175658\\1641812823944.png, C:\\Users\\antra\\git\\SEBonus-Test-Autiomation\\Reports\\20220110_175658\\Iteration 1\\20220110_175658\\1641812927839.png"/>
+         <property name="hostName" value="antra - 192.168.16.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.16.1"/>
+         <property name="sessionId" value="c93b9566a42355506aca00613fe03396"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Chat/Chat starred" time="166.669" classname="Test Cases/Chat/Chat starred" status="PASSED">
+         <system-out><![CDATA[2022-01-10 17:57:05 - [TEST_CASE][PASSED] - Test Cases/Chat/Chat starred: Test Cases/Chat/Chat starred
+
+2022-01-10 17:57:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 17:57:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 17:57:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 17:57:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 17:57:08 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 17:57:09 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 17:57:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 17:57:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 17:57:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "anhle1"): Text 'anhle1' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 17:57:10 - [MESSAGE][PASSED] - Text 'anhle1' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 17:57:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 17:57:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 17:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 17:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 17:57:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_0")): Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 17:57:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='message-drawer-toggle-61dc107224f9a61dc1072131d45']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 17:57:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_0'. Try using Self-healing.
+
+2022-01-10 17:57:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_0' was broken. Propose an alternative one: '//div[@id='usernavigation']/div[2]/a'.
+
+2022-01-10 17:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 17:57:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/div_L CDE")): Object: 'Object Repository/Page_Dashboard/div_L CDE' is clicked on
+
+2022-01-10 17:58:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='view-overview-favourites-target-61dc107227d7461dc1072131d47']/div[2]/a/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 17:58:15 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/div_L CDE'. Try using Self-healing.
+
+2022-01-10 17:58:15 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='view-overview-favourites-target-61dc107227d7461dc1072131d47']/div[2]/a/div/div'.
+
+2022-01-10 17:58:15 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Starred'])[1]/following::div[5]'.
+
+2022-01-10 17:58:16 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/antra/git/SEBonus-Test-Autiomation/Reports/Self-healing/Object Repository/Page_Dashboard/div_L CDE_neighbor.png
+
+2022-01-10 17:58:16 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/div_L CDE' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Starred'])[1]/following::div[5]'.
+
+2022-01-10 17:58:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/div_L CDE' is clicked on
+
+2022-01-10 17:58:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_f30280"), "alo"): Text 'alo' is set on object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_f30280'
+
+2022-01-10 17:58:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='yui_3_17_2_1_1641812082235_35']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 17:58:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_f30280'. Try using Self-healing.
+
+2022-01-10 17:58:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//textarea[@id='yui_3_17_2_1_1641812082235_35']'.
+
+2022-01-10 17:58:48 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='yui_3_17_2_1_1641812082235_36']/textarea'.
+
+2022-01-10 17:58:48 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//textarea'.
+
+2022-01-10 17:58:48 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/antra/git/SEBonus-Test-Autiomation/Reports/Self-healing/Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_f30280_position.png
+
+2022-01-10 17:58:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_f30280' was broken. Propose an alternative one: '//textarea'.
+
+2022-01-10 17:59:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='yui_3_17_2_1_1641812082235_35']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 17:59:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_f30280'. Try using Self-healing.
+
+2022-01-10 17:59:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_f30280' was broken. Propose an alternative one: '//textarea'.
+
+2022-01-10 17:59:20 - [MESSAGE][PASSED] - Text 'alo' is set on object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_f30280'
+
+2022-01-10 17:59:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button__btn btn-link btn-icon icon-size-3 m_754a09")): Object: 'Object Repository/Page_Dashboard/button__btn btn-link btn-icon icon-size-3 m_754a09' is clicked on
+
+2022-01-10 17:59:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641812082235_36']/div/button[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 17:59:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/button__btn btn-link btn-icon icon-size-3 m_754a09'. Try using Self-healing.
+
+2022-01-10 17:59:51 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='yui_3_17_2_1_1641812082235_36']/div/button[2]'.
+
+2022-01-10 17:59:51 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='😠'])[1]/following::button[2]'.
+
+2022-01-10 17:59:51 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/antra/git/SEBonus-Test-Autiomation/Reports/Self-healing/Object Repository/Page_Dashboard/button__btn btn-link btn-icon icon-size-3 m_754a09_neighbor.png
+
+2022-01-10 17:59:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/button__btn btn-link btn-icon icon-size-3 m_754a09' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='😠'])[1]/following::button[2]'.
+
+2022-01-10 17:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button__btn btn-link btn-icon icon-size-3 m_754a09' is clicked on
+
+2022-01-10 17:59:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 17:59:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat/Chat with group" time="165.921" classname="Test Cases/Chat/Chat with group" status="PASSED">
+         <system-out><![CDATA[2022-01-10 17:59:52 - [TEST_CASE][PASSED] - Test Cases/Chat/Chat with group: Test Cases/Chat/Chat with group
+
+2022-01-10 17:59:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 17:59:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 17:59:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 17:59:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 17:59:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 17:59:54 - [MESSAGE][PASSED] - Browser is closed
+
+2022-01-10 17:59:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 17:59:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 17:59:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 17:59:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 17:59:55 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 17:59:56 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 17:59:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 17:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 17:59:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 17:59:57 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 17:59:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 17:59:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 17:59:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 17:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 17:59:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_0")): Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 18:00:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='message-drawer-toggle-61dc107224f9a61dc1072131d45']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:00:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_0'. Try using Self-healing.
+
+2022-01-10 18:00:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_0' was broken. Propose an alternative one: '//div[@id='usernavigation']/div[2]/a'.
+
+2022-01-10 18:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 18:00:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/div_Team 1")): Object: 'Object Repository/Page_Dashboard/div_Team 1' is clicked on
+
+2022-01-10 18:01:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='view-overview-group-messages-target-61d99a8c1b06361d99a8a88c6d7']/div[2]/a/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:01:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/div_Team 1'. Try using Self-healing.
+
+2022-01-10 18:01:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/div_Team 1' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Group'])[1]/following::div[5]'.
+
+2022-01-10 18:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/div_Team 1' is clicked on
+
+2022-01-10 18:01:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_167f3b"), "hello"): Text 'hello' is set on object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_167f3b'
+
+2022-01-10 18:01:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='yui_3_17_2_1_1641650828764_35']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:01:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_167f3b'. Try using Self-healing.
+
+2022-01-10 18:01:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_167f3b' was broken. Propose an alternative one: '//textarea'.
+
+2022-01-10 18:02:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='yui_3_17_2_1_1641650828764_35']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:02:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_167f3b'. Try using Self-healing.
+
+2022-01-10 18:02:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_167f3b' was broken. Propose an alternative one: '//textarea'.
+
+2022-01-10 18:02:06 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_167f3b'
+
+2022-01-10 18:02:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw")): Object: 'Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw' is clicked on
+
+2022-01-10 18:02:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641809714717_40']/div/button[2]/span/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:02:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw'. Try using Self-healing.
+
+2022-01-10 18:02:37 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw' was broken. Propose an alternative one: '//button[2]/span/i'.
+
+2022-01-10 18:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw' is clicked on
+
+2022-01-10 18:02:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:02:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat/Chat private" time="164.589" classname="Test Cases/Chat/Chat private" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:02:38 - [TEST_CASE][PASSED] - Test Cases/Chat/Chat private: Test Cases/Chat/Chat private
+
+2022-01-10 18:02:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:02:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:02:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:02:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:02:39 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:02:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:02:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:02:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:02:41 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:02:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:02:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:02:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:02:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:02:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_0")): Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 18:03:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='message-drawer-toggle-61dc107224f9a61dc1072131d45']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:03:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_0'. Try using Self-healing.
+
+2022-01-10 18:03:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_0' was broken. Propose an alternative one: '//div[@id='usernavigation']/div[2]/a'.
+
+2022-01-10 18:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 18:03:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_hello_icon fa fa-caret-right fa-fw")): Object: 'Object Repository/Page_Dashboard/i_hello_icon fa fa-caret-right fa-fw' is clicked on
+
+2022-01-10 18:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_hello_icon fa fa-caret-right fa-fw' is clicked on
+
+2022-01-10 18:03:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/div_Student Two")): Object: 'Object Repository/Page_Dashboard/div_Student Two' is clicked on
+
+2022-01-10 18:03:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='view-overview-messages-target-61dc0732a02da61dc07328cc3c7']/div[2]/a/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:03:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/div_Student Two'. Try using Self-healing.
+
+2022-01-10 18:03:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/div_Student Two' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Private'])[1]/following::div[5]'.
+
+2022-01-10 18:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/div_Student Two' is clicked on
+
+2022-01-10 18:03:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_1c2d5d"), "alo"): Text 'alo' is set on object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_1c2d5d'
+
+2022-01-10 18:04:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='yui_3_17_2_1_1641809714717_39']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:04:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_1c2d5d'. Try using Self-healing.
+
+2022-01-10 18:04:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_1c2d5d' was broken. Propose an alternative one: '//textarea'.
+
+2022-01-10 18:04:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='yui_3_17_2_1_1641809714717_39']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:04:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_1c2d5d'. Try using Self-healing.
+
+2022-01-10 18:04:50 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_1c2d5d' was broken. Propose an alternative one: '//textarea'.
+
+2022-01-10 18:04:50 - [MESSAGE][PASSED] - Text 'alo' is set on object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_1c2d5d'
+
+2022-01-10 18:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw")): Object: 'Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw' is clicked on
+
+2022-01-10 18:05:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641809714717_40']/div/button[2]/span/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:05:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw'. Try using Self-healing.
+
+2022-01-10 18:05:22 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw' was broken. Propose an alternative one: '//button[2]/span/i'.
+
+2022-01-10 18:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw' is clicked on
+
+2022-01-10 18:05:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:05:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat/Search user and chat" time="196.183" classname="Test Cases/Chat/Search user and chat" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:08:47 - [TEST_CASE][PASSED] - Test Cases/Chat/Search user and chat: Test Cases/Chat/Search user and chat
+
+2022-01-10 18:08:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:08:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-10 18:08:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:08:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:08:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:08:49 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:08:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:08:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:08:51 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:08:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:08:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:08:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:08:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw")): Object: 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' is clicked on
+
+2022-01-10 18:09:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='message-drawer-toggle-61da31feb585e61da31fe9dea25']/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:09:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw'. Try using Self-healing.
+
+2022-01-10 18:09:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' was broken. Propose an alternative one: '//div[2]/a/i'.
+
+2022-01-10 18:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' is clicked on
+
+2022-01-10 18:09:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/input_Messages selected_form-control"), "Anh Le"): Text 'Anh Le' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:09:26 - [MESSAGE][PASSED] - Text 'Anh Le' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw")): Object: 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' is clicked on
+
+2022-01-10 18:09:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641689598842_31']/div[4]/div/div/div/button/span/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:09:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw'. Try using Self-healing.
+
+2022-01-10 18:09:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' was broken. Propose an alternative one: '//button/span/i'.
+
+2022-01-10 18:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' is clicked on
+
+2022-01-10 18:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Anh Lee")): Object: 'Object Repository/Page_Dashboard/a_Anh Lee' is clicked on
+
+2022-01-10 18:10:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641689598842_26']/div[6]/div/div/div/div[2]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:10:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_Anh Lee'. Try using Self-healing.
+
+2022-01-10 18:10:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_Anh Lee' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Non-contacts'])[1]/following::a[1]'.
+
+2022-01-10 18:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Anh Lee' is clicked on
+
+2022-01-10 18:10:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_9e4947"), "kk"): Text 'kk' is set on object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_9e4947'
+
+2022-01-10 18:11:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='yui_3_17_2_1_1641689351127_51']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:11:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_9e4947'. Try using Self-healing.
+
+2022-01-10 18:11:00 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_9e4947' was broken. Propose an alternative one: '//textarea'.
+
+2022-01-10 18:11:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //textarea[@id='yui_3_17_2_1_1641689351127_51']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:11:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_9e4947'. Try using Self-healing.
+
+2022-01-10 18:11:31 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_9e4947' was broken. Propose an alternative one: '//textarea'.
+
+2022-01-10 18:11:31 - [MESSAGE][PASSED] - Text 'kk' is set on object 'Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_9e4947'
+
+2022-01-10 18:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw")): Object: 'Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw' is clicked on
+
+2022-01-10 18:12:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641809714717_40']/div/button[2]/span/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:12:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw'. Try using Self-healing.
+
+2022-01-10 18:12:03 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw' was broken. Propose an alternative one: '//button[2]/span/i'.
+
+2022-01-10 18:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw' is clicked on
+
+2022-01-10 18:12:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:12:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat/Cancel add contact" time="105.104" classname="Test Cases/Chat/Cancel add contact" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:12:04 - [TEST_CASE][PASSED] - Test Cases/Chat/Cancel add contact: Test Cases/Chat/Cancel add contact
+
+2022-01-10 18:12:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:12:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:12:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:12:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:12:05 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:12:06 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:12:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:12:07 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:12:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:12:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:12:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:12:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_0")): Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 18:12:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='message-drawer-toggle-61dc107224f9a61dc1072131d45']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:12:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_0'. Try using Self-healing.
+
+2022-01-10 18:12:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_0' was broken. Propose an alternative one: '//div[@id='usernavigation']/div[2]/a'.
+
+2022-01-10 18:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 18:12:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/input_Messages selected_form-control"), "student"): Text 'student' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:12:42 - [MESSAGE][PASSED] - Text 'student' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:12:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw")): Object: 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' is clicked on
+
+2022-01-10 18:13:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641689598842_31']/div[4]/div/div/div/button/span/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:13:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw'. Try using Self-healing.
+
+2022-01-10 18:13:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' was broken. Propose an alternative one: '//button/span/i'.
+
+2022-01-10 18:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' is clicked on
+
+2022-01-10 18:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Student One")): Object: 'Object Repository/Page_Dashboard/a_Student One' is clicked on
+
+2022-01-10 18:13:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641386046992_25']/div[6]/div/div/div/div[2]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:13:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_Student One'. Try using Self-healing.
+
+2022-01-10 18:13:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_Student One' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Non-contacts'])[1]/following::a[1]'.
+
+2022-01-10 18:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Student One' is clicked on
+
+2022-01-10 18:13:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_Student One_icon fa fa-ellipsis-h fa-fw")): Object: 'Object Repository/Page_Dashboard/i_Student One_icon fa fa-ellipsis-h fa-fw' is clicked on
+
+2022-01-10 18:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_Student One_icon fa fa-ellipsis-h fa-fw' is clicked on
+
+2022-01-10 18:13:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_User info")): Object: 'Object Repository/Page_Dashboard/a_User info' is clicked on
+
+2022-01-10 18:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_User info' is clicked on
+
+2022-01-10 18:13:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Add to contacts")): Object: 'Object Repository/Page_Dashboard/button_Add to contacts' is clicked on
+
+2022-01-10 18:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Add to contacts' is clicked on
+
+2022-01-10 18:13:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Cancel")): Object: 'Object Repository/Page_Dashboard/button_Cancel' is clicked on
+
+2022-01-10 18:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Cancel' is clicked on
+
+2022-01-10 18:13:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:13:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat/Add contact" time="73.893" classname="Test Cases/Chat/Add contact" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:13:49 - [TEST_CASE][PASSED] - Test Cases/Chat/Add contact: Test Cases/Chat/Add contact
+
+2022-01-10 18:13:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:13:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:13:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:13:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:13:50 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:13:51 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:13:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:13:52 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:13:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:13:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:13:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:13:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_0")): Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 18:14:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='message-drawer-toggle-61dc107224f9a61dc1072131d45']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:14:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_0'. Try using Self-healing.
+
+2022-01-10 18:14:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_0' was broken. Propose an alternative one: '//div[@id='usernavigation']/div[2]/a'.
+
+2022-01-10 18:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 18:14:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/input_Messages selected_form-control"), "Anh Lee"): Text 'Anh Lee' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:14:26 - [MESSAGE][PASSED] - Text 'Anh Lee' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:14:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Messages selected_btn btn-submit ico_2a7788")): Object: 'Object Repository/Page_Dashboard/button_Messages selected_btn btn-submit ico_2a7788' is clicked on
+
+2022-01-10 18:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Messages selected_btn btn-submit ico_2a7788' is clicked on
+
+2022-01-10 18:14:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Anh Lee")): Object: 'Object Repository/Page_Dashboard/a_Anh Lee' is clicked on
+
+2022-01-10 18:14:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641689598842_26']/div[6]/div/div/div/div[2]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:14:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_Anh Lee'. Try using Self-healing.
+
+2022-01-10 18:14:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_Anh Lee' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Non-contacts'])[1]/following::a[1]'.
+
+2022-01-10 18:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Anh Lee' is clicked on
+
+2022-01-10 18:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_Anh Lee_icon fa fa-ellipsis-h fa-fw")): Object: 'Object Repository/Page_Dashboard/i_Anh Lee_icon fa fa-ellipsis-h fa-fw' is clicked on
+
+2022-01-10 18:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_Anh Lee_icon fa fa-ellipsis-h fa-fw' is clicked on
+
+2022-01-10 18:15:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_User info")): Object: 'Object Repository/Page_Dashboard/a_User info' is clicked on
+
+2022-01-10 18:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_User info' is clicked on
+
+2022-01-10 18:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Add to contacts")): Object: 'Object Repository/Page_Dashboard/button_Add to contacts' is clicked on
+
+2022-01-10 18:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Add to contacts' is clicked on
+
+2022-01-10 18:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Add")): Object: 'Object Repository/Page_Dashboard/button_Add' is clicked on
+
+2022-01-10 18:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Add' is clicked on
+
+2022-01-10 18:15:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:15:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat/Accept contact" time="163.689" classname="Test Cases/Chat/Accept contact" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:15:03 - [TEST_CASE][PASSED] - Test Cases/Chat/Accept contact: Test Cases/Chat/Accept contact
+
+2022-01-10 18:15:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:15:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:15:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:15:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:15:04 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:15:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:15:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin3"): Text 'admin3' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:15:06 - [MESSAGE][PASSED] - Text 'admin3' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:15:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:15:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:15:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:15:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw")): Object: 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' is clicked on
+
+2022-01-10 18:15:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='message-drawer-toggle-61da31feb585e61da31fe9dea25']/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:15:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw'. Try using Self-healing.
+
+2022-01-10 18:15:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' was broken. Propose an alternative one: '//div[2]/a/i'.
+
+2022-01-10 18:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' is clicked on
+
+2022-01-10 18:15:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Contacts                                 _4239a2")): Object: 'Object Repository/Page_Dashboard/a_Contacts                                 _4239a2' is clicked on
+
+2022-01-10 18:16:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='message-drawer-61d55e0da414861d55e0d8b2d37']/div[2]/div[3]/div[2]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:16:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_Contacts                                 _4239a2'. Try using Self-healing.
+
+2022-01-10 18:16:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_Contacts                                 _4239a2' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/following::a[3]'.
+
+2022-01-10 18:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Contacts                                 _4239a2' is clicked on
+
+2022-01-10 18:16:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Requests                                 _76dac8")): Object: 'Object Repository/Page_Dashboard/a_Requests                                 _76dac8' is clicked on
+
+2022-01-10 18:16:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='requests-tab-61d55e0da414861d55e0d8b2d37']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:16:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_Requests                                 _76dac8'. Try using Self-healing.
+
+2022-01-10 18:16:42 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_Requests                                 _76dac8' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[2]/following::a[1]'.
+
+2022-01-10 18:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Requests                                 _76dac8' is clicked on
+
+2022-01-10 18:16:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/p_Would like to contact you")): Object: 'Object Repository/Page_Dashboard/p_Would like to contact you' is clicked on
+
+2022-01-10 18:17:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='requests-tab-panel-61d55e0da414861d55e0d8b2d37']/div[2]/a/div/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:17:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/p_Would like to contact you'. Try using Self-healing.
+
+2022-01-10 18:17:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/p_Would like to contact you' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Admin User'])[1]/following::p[1]'.
+
+2022-01-10 18:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/p_Would like to contact you' is clicked on
+
+2022-01-10 18:17:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Accept and add to contacts")): Object: 'Object Repository/Page_Dashboard/span_Accept and add to contacts' is clicked on
+
+2022-01-10 18:17:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641373197849_26']/div[3]/div/div[2]/div/button[8]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:17:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/span_Accept and add to contacts'. Try using Self-healing.
+
+2022-01-10 18:17:46 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/span_Accept and add to contacts' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Send contact request'])[1]/following::span[3]'.
+
+2022-01-10 18:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Accept and add to contacts' is clicked on
+
+2022-01-10 18:17:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:17:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat/Remove a contact" time="103.396" classname="Test Cases/Chat/Remove a contact" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:17:46 - [TEST_CASE][PASSED] - Test Cases/Chat/Remove a contact: Test Cases/Chat/Remove a contact
+
+2022-01-10 18:17:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:17:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:17:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:17:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:17:48 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:17:48 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:17:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:17:50 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:17:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:17:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:17:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:17:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw")): Object: 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' is clicked on
+
+2022-01-10 18:18:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='message-drawer-toggle-61da31feb585e61da31fe9dea25']/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:18:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw'. Try using Self-healing.
+
+2022-01-10 18:18:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' was broken. Propose an alternative one: '//div[2]/a/i'.
+
+2022-01-10 18:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' is clicked on
+
+2022-01-10 18:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Private                             _e23f4d")): Object: 'Object Repository/Page_Dashboard/button_Private                             _e23f4d' is clicked on
+
+2022-01-10 18:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Private                             _e23f4d' is clicked on
+
+2022-01-10 18:18:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i__icon fa fa-chevron-right fa-fw")): Object: 'Object Repository/Page_Dashboard/i__icon fa fa-chevron-right fa-fw' is clicked on
+
+2022-01-10 18:18:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='view-overview-messages-target-61d5c032d7e3961d5c032c12767']/div[2]/a/div[2]/div[2]/div/span/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:18:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i__icon fa fa-chevron-right fa-fw'. Try using Self-healing.
+
+2022-01-10 18:18:55 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i__icon fa fa-chevron-right fa-fw' was broken. Propose an alternative one: '//div[3]/div[2]/div[2]/a/div[2]/div[2]/div/span/i'.
+
+2022-01-10 18:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i__icon fa fa-chevron-right fa-fw' is clicked on
+
+2022-01-10 18:18:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Anh Lee_conversation-actions-menu-button")): Object: 'Object Repository/Page_Dashboard/button_Anh Lee_conversation-actions-menu-button' is clicked on
+
+2022-01-10 18:18:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Anh Lee_conversation-actions-menu-button' is clicked on
+
+2022-01-10 18:18:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_User info")): Object: 'Object Repository/Page_Dashboard/a_User info' is clicked on
+
+2022-01-10 18:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_User info' is clicked on
+
+2022-01-10 18:18:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Remove from contacts")): Object: 'Object Repository/Page_Dashboard/button_Remove from contacts' is clicked on
+
+2022-01-10 18:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Remove from contacts' is clicked on
+
+2022-01-10 18:18:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Remove")): Object: 'Object Repository/Page_Dashboard/span_Remove' is clicked on
+
+2022-01-10 18:19:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641398322952_26']/div[3]/div/div[2]/div/button[3]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:19:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/span_Remove'. Try using Self-healing.
+
+2022-01-10 18:19:29 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/span_Remove' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Unblock'])[1]/following::span[3]'.
+
+2022-01-10 18:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Remove' is clicked on
+
+2022-01-10 18:19:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:19:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat/Cancel block user" time="104.426" classname="Test Cases/Chat/Cancel block user" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:19:30 - [TEST_CASE][PASSED] - Test Cases/Chat/Cancel block user: Test Cases/Chat/Cancel block user
+
+2022-01-10 18:19:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:19:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:19:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:19:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:19:31 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:19:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:19:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:19:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:19:33 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:19:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:19:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:19:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_0")): Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 18:20:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='message-drawer-toggle-61dc107224f9a61dc1072131d45']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:20:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_0'. Try using Self-healing.
+
+2022-01-10 18:20:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_0' was broken. Propose an alternative one: '//div[@id='usernavigation']/div[2]/a'.
+
+2022-01-10 18:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 18:20:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/input_Messages selected_form-control"), "student"): Text 'student' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:20:08 - [MESSAGE][PASSED] - Text 'student' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Messages selected_btn btn-submit ico_2a7788")): Object: 'Object Repository/Page_Dashboard/button_Messages selected_btn btn-submit ico_2a7788' is clicked on
+
+2022-01-10 18:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Messages selected_btn btn-submit ico_2a7788' is clicked on
+
+2022-01-10 18:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Student One")): Object: 'Object Repository/Page_Dashboard/a_Student One' is clicked on
+
+2022-01-10 18:20:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641386046992_25']/div[6]/div/div/div/div[2]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:20:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_Student One'. Try using Self-healing.
+
+2022-01-10 18:20:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_Student One' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Non-contacts'])[1]/following::a[1]'.
+
+2022-01-10 18:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Student One' is clicked on
+
+2022-01-10 18:20:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_Student One_icon fa fa-ellipsis-h fa-fw")): Object: 'Object Repository/Page_Dashboard/i_Student One_icon fa fa-ellipsis-h fa-fw' is clicked on
+
+2022-01-10 18:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_Student One_icon fa fa-ellipsis-h fa-fw' is clicked on
+
+2022-01-10 18:20:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Block user")): Object: 'Object Repository/Page_Dashboard/a_Block user' is clicked on
+
+2022-01-10 18:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Block user' is clicked on
+
+2022-01-10 18:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Cancel")): Object: 'Object Repository/Page_Dashboard/button_Cancel' is clicked on
+
+2022-01-10 18:21:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[22]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:21:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/button_Cancel'. Try using Self-healing.
+
+2022-01-10 18:21:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/button_Cancel' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/following::button[1]'.
+
+2022-01-10 18:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Cancel' is clicked on
+
+2022-01-10 18:21:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:21:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat/Block user" time="73.927" classname="Test Cases/Chat/Block user" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:21:14 - [TEST_CASE][PASSED] - Test Cases/Chat/Block user: Test Cases/Chat/Block user
+
+2022-01-10 18:21:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:21:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:21:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:21:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:21:16 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:21:16 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:21:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:21:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/form_Username                              _635ab4")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/form_Username                              _635ab4' is clicked on
+
+2022-01-10 18:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/form_Username                              _635ab4' is clicked on
+
+2022-01-10 18:21:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:21:18 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:21:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:21:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:21:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:21:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:21:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_0")): Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 18:21:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='message-drawer-toggle-61dc107224f9a61dc1072131d45']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:21:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_0'. Try using Self-healing.
+
+2022-01-10 18:21:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_0' was broken. Propose an alternative one: '//div[@id='usernavigation']/div[2]/a'.
+
+2022-01-10 18:21:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_0' is clicked on
+
+2022-01-10 18:21:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/input_Messages selected_form-control"), "student"): Text 'student' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:21:52 - [MESSAGE][PASSED] - Text 'student' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:21:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Messages selected_btn btn-submit ico_2a7788")): Object: 'Object Repository/Page_Dashboard/button_Messages selected_btn btn-submit ico_2a7788' is clicked on
+
+2022-01-10 18:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Messages selected_btn btn-submit ico_2a7788' is clicked on
+
+2022-01-10 18:21:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Student Two")): Object: 'Object Repository/Page_Dashboard/a_Student Two' is clicked on
+
+2022-01-10 18:22:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641382110919_25']/div[6]/div/div/div/div[2]/div/a[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:22:24 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_Student Two'. Try using Self-healing.
+
+2022-01-10 18:22:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_Student Two' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Student'])[1]/following::a[1]'.
+
+2022-01-10 18:22:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Student Two' is clicked on
+
+2022-01-10 18:22:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_Student Two_icon fa fa-ellipsis-h fa-fw")): Object: 'Object Repository/Page_Dashboard/i_Student Two_icon fa fa-ellipsis-h fa-fw' is clicked on
+
+2022-01-10 18:22:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_Student Two_icon fa fa-ellipsis-h fa-fw' is clicked on
+
+2022-01-10 18:22:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_User info")): Object: 'Object Repository/Page_Dashboard/a_User info' is clicked on
+
+2022-01-10 18:22:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_User info' is clicked on
+
+2022-01-10 18:22:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Block user")): Object: 'Object Repository/Page_Dashboard/button_Block user' is clicked on
+
+2022-01-10 18:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Block user' is clicked on
+
+2022-01-10 18:22:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Block")): Object: 'Object Repository/Page_Dashboard/button_Block' is clicked on
+
+2022-01-10 18:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Block' is clicked on
+
+2022-01-10 18:22:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:22:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat/Cancel unblock user" time="145.293" classname="Test Cases/Chat/Cancel unblock user" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:22:28 - [TEST_CASE][PASSED] - Test Cases/Chat/Cancel unblock user: Test Cases/Chat/Cancel unblock user
+
+2022-01-10 18:22:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:22:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:22:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:22:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:22:30 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:22:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:22:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:22:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:22:31 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:22:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:22:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:22:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:22:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw")): Object: 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' is clicked on
+
+2022-01-10 18:23:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='message-drawer-toggle-61da31feb585e61da31fe9dea25']/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:23:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw'. Try using Self-healing.
+
+2022-01-10 18:23:07 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' was broken. Propose an alternative one: '//div[2]/a/i'.
+
+2022-01-10 18:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' is clicked on
+
+2022-01-10 18:23:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/input_Messages selected_form-control"), "student"): Text 'student' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:23:11 - [MESSAGE][PASSED] - Text 'student' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:23:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw")): Object: 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' is clicked on
+
+2022-01-10 18:23:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641689598842_31']/div[4]/div/div/div/button/span/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:23:44 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw'. Try using Self-healing.
+
+2022-01-10 18:23:46 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' was broken. Propose an alternative one: '//button/span/i'.
+
+2022-01-10 18:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' is clicked on
+
+2022-01-10 18:23:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Student One")): Object: 'Object Repository/Page_Dashboard/a_Student One' is clicked on
+
+2022-01-10 18:24:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641386046992_25']/div[6]/div/div/div/div[2]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:24:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_Student One'. Try using Self-healing.
+
+2022-01-10 18:24:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_Student One' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Non-contacts'])[1]/following::a[1]'.
+
+2022-01-10 18:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Student One' is clicked on
+
+2022-01-10 18:24:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_Student One_icon fa fa-ellipsis-h fa-fw")): Object: 'Object Repository/Page_Dashboard/i_Student One_icon fa fa-ellipsis-h fa-fw' is clicked on
+
+2022-01-10 18:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_Student One_icon fa fa-ellipsis-h fa-fw' is clicked on
+
+2022-01-10 18:24:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Delete conversation")): Object: 'Object Repository/Page_Dashboard/a_Delete conversation' is clicked on
+
+2022-01-10 18:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Delete conversation' is clicked on
+
+2022-01-10 18:24:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Delete")): Object: 'Object Repository/Page_Dashboard/button_Delete' is clicked on
+
+2022-01-10 18:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Delete' is clicked on
+
+2022-01-10 18:24:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:24:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat/Unblock user" time="164.944" classname="Test Cases/Chat/Unblock user" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:24:53 - [TEST_CASE][PASSED] - Test Cases/Chat/Unblock user: Test Cases/Chat/Unblock user
+
+2022-01-10 18:24:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:24:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:24:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:24:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:24:55 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:24:55 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:24:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:24:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:24:57 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:24:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:24:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:24:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:24:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw")): Object: 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' is clicked on
+
+2022-01-10 18:25:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='message-drawer-toggle-61da31feb585e61da31fe9dea25']/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:25:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw'. Try using Self-healing.
+
+2022-01-10 18:25:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' was broken. Propose an alternative one: '//div[2]/a/i'.
+
+2022-01-10 18:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' is clicked on
+
+2022-01-10 18:25:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/input_Messages selected_form-control"), "student"): Text 'student' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:25:31 - [MESSAGE][PASSED] - Text 'student' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw")): Object: 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' is clicked on
+
+2022-01-10 18:26:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641689598842_31']/div[4]/div/div/div/button/span/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:26:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw'. Try using Self-healing.
+
+2022-01-10 18:26:03 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' was broken. Propose an alternative one: '//button/span/i'.
+
+2022-01-10 18:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' is clicked on
+
+2022-01-10 18:26:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Student Two")): Object: 'Object Repository/Page_Dashboard/a_Student Two' is clicked on
+
+2022-01-10 18:26:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641382110919_25']/div[6]/div/div/div/div[2]/div/a[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:26:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_Student Two'. Try using Self-healing.
+
+2022-01-10 18:26:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_Student Two' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Student'])[1]/following::a[1]'.
+
+2022-01-10 18:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Student Two' is clicked on
+
+2022-01-10 18:26:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Unblock user")): Object: 'Object Repository/Page_Dashboard/span_Unblock user' is clicked on
+
+2022-01-10 18:27:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='message-drawer-61d57004667c961d570045584c7']/div[4]/div/div[4]/div/button/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:27:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/span_Unblock user'. Try using Self-healing.
+
+2022-01-10 18:27:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/span_Unblock user' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Send contact request'])[2]/following::span[3]'.
+
+2022-01-10 18:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Unblock user' is clicked on
+
+2022-01-10 18:27:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_Unblock")): Object: 'Object Repository/Page_Dashboard/span_Unblock' is clicked on
+
+2022-01-10 18:27:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641376457670_26']/div[3]/div/div[2]/div/button[2]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:27:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/span_Unblock'. Try using Self-healing.
+
+2022-01-10 18:27:38 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/span_Unblock' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Block'])[1]/following::span[3]'.
+
+2022-01-10 18:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_Unblock' is clicked on
+
+2022-01-10 18:27:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:27:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chat/Delete conversation (message with another user)" time="136.61" classname="Test Cases/Chat/Delete conversation (message with another user)" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:27:38 - [TEST_CASE][PASSED] - Test Cases/Chat/Delete conversation (message with another user): Test Cases/Chat/Delete conversation (message with another user)
+
+2022-01-10 18:27:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:27:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:27:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:27:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:27:40 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:27:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:27:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/span_Log in")): Object: 'Object Repository/Page_L Tm Anh/span_Log in' is clicked on
+
+2022-01-10 18:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/span_Log in' is clicked on
+
+2022-01-10 18:27:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:28:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='usernavigation']/div/div/span/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:28:12 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_L Tm Anh/a_Log in'. Try using Self-healing.
+
+2022-01-10 18:28:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_L Tm Anh/a_Log in' was broken. Propose an alternative one: '//*/text()[normalize-space(.)='Log in']/parent::*'.
+
+2022-01-10 18:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:28:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:28:14 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:28:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:28:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:28:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:28:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw")): Object: 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' is clicked on
+
+2022-01-10 18:28:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='message-drawer-toggle-61da31feb585e61da31fe9dea25']/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:28:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw'. Try using Self-healing.
+
+2022-01-10 18:28:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' was broken. Propose an alternative one: '//div[2]/a/i'.
+
+2022-01-10 18:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw' is clicked on
+
+2022-01-10 18:28:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/input_Messages selected_form-control"), "Anh Le"): Text 'Anh Le' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:28:49 - [MESSAGE][PASSED] - Text 'Anh Le' is set on object 'Object Repository/Page_Dashboard/input_Messages selected_form-control'
+
+2022-01-10 18:28:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw")): Object: 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' is clicked on
+
+2022-01-10 18:29:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641689598842_31']/div[4]/div/div/div/button/span/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:29:20 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw'. Try using Self-healing.
+
+2022-01-10 18:29:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' was broken. Propose an alternative one: '//button/span/i'.
+
+2022-01-10 18:29:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw' is clicked on
+
+2022-01-10 18:29:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Anh Lee")): Object: 'Object Repository/Page_Dashboard/a_Anh Lee' is clicked on
+
+2022-01-10 18:29:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='yui_3_17_2_1_1641689598842_26']/div[6]/div/div/div/div[2]/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:29:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/a_Anh Lee'. Try using Self-healing.
+
+2022-01-10 18:29:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/a_Anh Lee' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Non-contacts'])[1]/following::a[1]'.
+
+2022-01-10 18:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Anh Lee' is clicked on
+
+2022-01-10 18:29:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/i_Anh Lee_icon fa fa-ellipsis-h fa-fw")): Object: 'Object Repository/Page_Dashboard/i_Anh Lee_icon fa fa-ellipsis-h fa-fw' is clicked on
+
+2022-01-10 18:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/i_Anh Lee_icon fa fa-ellipsis-h fa-fw' is clicked on
+
+2022-01-10 18:29:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Delete conversation")): Object: 'Object Repository/Page_Dashboard/a_Delete conversation' is clicked on
+
+2022-01-10 18:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Delete conversation' is clicked on
+
+2022-01-10 18:29:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Delete")): Object: 'Object Repository/Page_Dashboard/button_Delete' is clicked on
+
+2022-01-10 18:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Delete' is clicked on
+
+2022-01-10 18:29:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:29:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/I1/Create a event user type (event button)" time="73.333" classname="Test Cases/I1/Create a event user type (event button)" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:29:55 - [TEST_CASE][PASSED] - Test Cases/I1/Create a event user type (event button): Test Cases/I1/Create a event user type (event button)
+
+2022-01-10 18:29:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:29:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:29:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:29:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:29:56 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:29:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:29:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:29:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:29:58 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:29:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:29:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:29:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:30:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:30:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_New event")): Object: 'Object Repository/Page_Dashboard/button_New event' is clicked on
+
+2022-01-10 18:30:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='calendar-month-61d588d0368e361d588d02f85e2-1']/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:30:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/button_New event'. Try using Self-healing.
+
+2022-01-10 18:30:31 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/button_New event' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='List of courses'])[1]/following::button[1]'.
+
+2022-01-10 18:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_New event' is clicked on
+
+2022-01-10 18:30:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Dashboard/select_1        2        3        4        _45ea30"), "6", true): All options with value '6' are selected in object 'Object Repository/Page_Dashboard/select_1        2        3        4        _45ea30'  using regular expression
+
+2022-01-10 18:30:35 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/Page_Dashboard/select_1        2        3        4        _45ea30'  using regular expression
+
+2022-01-10 18:30:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/input_Event title_name"), "Anhle"): Text 'Anhle' is set on object 'Object Repository/Page_Dashboard/input_Event title_name'
+
+2022-01-10 18:30:36 - [MESSAGE][PASSED] - Text 'Anhle' is set on object 'Object Repository/Page_Dashboard/input_Event title_name'
+
+2022-01-10 18:30:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Save")): Object: 'Object Repository/Page_Dashboard/button_Save' is clicked on
+
+2022-01-10 18:31:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='yui_3_17_2_1_1641384144308_192']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:31:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/button_Save'. Try using Self-healing.
+
+2022-01-10 18:31:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/button_Save' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Repeat weekly, creating altogether'])[1]/following::button[1]'.
+
+2022-01-10 18:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Save' is clicked on
+
+2022-01-10 18:31:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:31:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/I1/Create a event site type (event button)" time="73.719" classname="Test Cases/I1/Create a event site type (event button)" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:31:08 - [TEST_CASE][PASSED] - Test Cases/I1/Create a event site type (event button): Test Cases/I1/Create a event site type (event button)
+
+2022-01-10 18:31:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:31:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:31:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:31:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:31:10 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:31:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:31:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:31:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:31:12 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:31:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:31:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:31:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:31:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_New event")): Object: 'Object Repository/Page_Dashboard/button_New event' is clicked on
+
+2022-01-10 18:31:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='calendar-month-61d588d0368e361d588d02f85e2-1']/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:31:44 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/button_New event'. Try using Self-healing.
+
+2022-01-10 18:31:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/button_New event' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='List of courses'])[1]/following::button[1]'.
+
+2022-01-10 18:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_New event' is clicked on
+
+2022-01-10 18:31:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/input_Event title_name"), "5"): Text '5' is set on object 'Object Repository/Page_Dashboard/input_Event title_name'
+
+2022-01-10 18:31:47 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Page_Dashboard/input_Event title_name'
+
+2022-01-10 18:31:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Dashboard/select_1        2        3        4        _45ea30"), "6", true): All options with value '6' are selected in object 'Object Repository/Page_Dashboard/select_1        2        3        4        _45ea30'  using regular expression
+
+2022-01-10 18:31:49 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/Page_Dashboard/select_1        2        3        4        _45ea30'  using regular expression
+
+2022-01-10 18:31:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Dashboard/select_User            Course            Ca_edc569"), "site", true): All options with value 'site' are selected in object 'Object Repository/Page_Dashboard/select_User            Course            Ca_edc569'  using regular expression
+
+2022-01-10 18:31:50 - [MESSAGE][PASSED] - All options with value 'site' are selected in object 'Object Repository/Page_Dashboard/select_User            Course            Ca_edc569'  using regular expression
+
+2022-01-10 18:31:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Save")): Object: 'Object Repository/Page_Dashboard/button_Save' is clicked on
+
+2022-01-10 18:32:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='yui_3_17_2_1_1641384144308_192']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:32:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/button_Save'. Try using Self-healing.
+
+2022-01-10 18:32:21 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/button_Save' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Repeat weekly, creating altogether'])[1]/following::button[1]'.
+
+2022-01-10 18:32:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Save' is clicked on
+
+2022-01-10 18:32:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:32:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/I1/Create a event course type (event button)" time="138.386" classname="Test Cases/I1/Create a event course type (event button)" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:32:22 - [TEST_CASE][PASSED] - Test Cases/I1/Create a event course type (event button): Test Cases/I1/Create a event course type (event button)
+
+2022-01-10 18:32:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:32:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:32:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:32:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:32:24 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:32:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:32:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:32:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:32:26 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:32:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:32:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:32:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_New event")): Object: 'Object Repository/Page_Dashboard/button_New event' is clicked on
+
+2022-01-10 18:32:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='calendar-month-61d588d0368e361d588d02f85e2-1']/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:32:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/button_New event'. Try using Self-healing.
+
+2022-01-10 18:32:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/button_New event' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='List of courses'])[1]/following::button[1]'.
+
+2022-01-10 18:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_New event' is clicked on
+
+2022-01-10 18:32:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/input_Event title_name"), "3"): Text '3' is set on object 'Object Repository/Page_Dashboard/input_Event title_name'
+
+2022-01-10 18:33:01 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Page_Dashboard/input_Event title_name'
+
+2022-01-10 18:33:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Dashboard/select_1        2        3        4        _45ea30"), "6", true): All options with value '6' are selected in object 'Object Repository/Page_Dashboard/select_1        2        3        4        _45ea30'  using regular expression
+
+2022-01-10 18:33:03 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/Page_Dashboard/select_1        2        3        4        _45ea30'  using regular expression
+
+2022-01-10 18:33:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Dashboard/select_User            Course            Ca_edc569"), "course", true): All options with value 'course' are selected in object 'Object Repository/Page_Dashboard/select_User            Course            Ca_edc569'  using regular expression
+
+2022-01-10 18:33:04 - [MESSAGE][PASSED] - All options with value 'course' are selected in object 'Object Repository/Page_Dashboard/select_User            Course            Ca_edc569'  using regular expression
+
+2022-01-10 18:33:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/span_")): Object: 'Object Repository/Page_Dashboard/span_' is clicked on
+
+2022-01-10 18:33:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@id='form_autocomplete_downarrow-1641383885384']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:33:35 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/span_'. Try using Self-healing.
+
+2022-01-10 18:33:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/span_' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='No selection'])[1]/following::span[1]'.
+
+2022-01-10 18:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/span_' is clicked on
+
+2022-01-10 18:33:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/li_1")): Object: 'Object Repository/Page_Dashboard/li_1' is clicked on
+
+2022-01-10 18:34:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[@id='form_autocomplete_suggestions-1641366360473-0']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:34:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/li_1'. Try using Self-healing.
+
+2022-01-10 18:34:07 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/li_1' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='▼'])[2]/following::li[1]'.
+
+2022-01-10 18:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/li_1' is clicked on
+
+2022-01-10 18:34:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Dashboard/select_1"), "2", true): All options with value '2' are selected in object 'Object Repository/Page_Dashboard/select_1'  using regular expression
+
+2022-01-10 18:34:08 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page_Dashboard/select_1'  using regular expression
+
+2022-01-10 18:34:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Save")): Object: 'Object Repository/Page_Dashboard/button_Save' is clicked on
+
+2022-01-10 18:34:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='yui_3_17_2_1_1641384144308_192']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:34:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/button_Save'. Try using Self-healing.
+
+2022-01-10 18:34:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/button_Save' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Repeat weekly, creating altogether'])[1]/following::button[1]'.
+
+2022-01-10 18:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Save' is clicked on
+
+2022-01-10 18:34:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:34:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/I1/Create a event category type (event button)" time="73.472" classname="Test Cases/I1/Create a event category type (event button)" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:34:40 - [TEST_CASE][PASSED] - Test Cases/I1/Create a event category type (event button): Test Cases/I1/Create a event category type (event button)
+
+2022-01-10 18:34:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:34:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:34:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:34:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:34:42 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:34:43 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:34:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:34:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:34:44 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:34:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:34:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:34:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_New event")): Object: 'Object Repository/Page_Dashboard/button_New event' is clicked on
+
+2022-01-10 18:35:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='calendar-month-61d588d0368e361d588d02f85e2-1']/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:35:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/button_New event'. Try using Self-healing.
+
+2022-01-10 18:35:18 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/button_New event' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='List of courses'])[1]/following::button[1]'.
+
+2022-01-10 18:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_New event' is clicked on
+
+2022-01-10 18:35:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dashboard/input_Event title_name"), "10"): Text '10' is set on object 'Object Repository/Page_Dashboard/input_Event title_name'
+
+2022-01-10 18:35:20 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Page_Dashboard/input_Event title_name'
+
+2022-01-10 18:35:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Dashboard/select_User            Group            Cou_43b121"), "category", true): All options with value 'category' are selected in object 'Object Repository/Page_Dashboard/select_User            Group            Cou_43b121'  using regular expression
+
+2022-01-10 18:35:22 - [MESSAGE][PASSED] - All options with value 'category' are selected in object 'Object Repository/Page_Dashboard/select_User            Group            Cou_43b121'  using regular expression
+
+2022-01-10 18:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/button_Save")): Object: 'Object Repository/Page_Dashboard/button_Save' is clicked on
+
+2022-01-10 18:35:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='yui_3_17_2_1_1641384144308_192']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-01-10 18:35:53 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Dashboard/button_Save'. Try using Self-healing.
+
+2022-01-10 18:35:53 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Dashboard/button_Save' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Repeat weekly, creating altogether'])[1]/following::button[1]'.
+
+2022-01-10 18:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/button_Save' is clicked on
+
+2022-01-10 18:35:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:35:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/I2/View my profile" time="8.734" classname="Test Cases/I2/View my profile" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:35:54 - [TEST_CASE][PASSED] - Test Cases/I2/View my profile: Test Cases/I2/View my profile
+
+2022-01-10 18:35:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:35:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:35:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:35:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:35:56 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:35:56 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:35:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:35:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:35:58 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:35:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:35:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:35:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_AU")): Object: 'Object Repository/Page_Dashboard/a_AU' is clicked on
+
+2022-01-10 18:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_AU' is clicked on
+
+2022-01-10 18:36:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Profile")): Object: 'Object Repository/Page_Dashboard/a_Profile' is clicked on
+
+2022-01-10 18:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Profile' is clicked on
+
+2022-01-10 18:36:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:36:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/I2/Cancel edit profile" time="12.663" classname="Test Cases/I2/Cancel edit profile" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:36:03 - [TEST_CASE][PASSED] - Test Cases/I2/Cancel edit profile: Test Cases/I2/Cancel edit profile
+
+2022-01-10 18:36:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:36:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:36:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:36:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:36:04 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:36:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:36:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:36:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:36:07 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:36:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:36:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:36:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_AU")): Object: 'Object Repository/Page_Dashboard/a_AU' is clicked on
+
+2022-01-10 18:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_AU' is clicked on
+
+2022-01-10 18:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Profile")): Object: 'Object Repository/Page_Dashboard/a_Profile' is clicked on
+
+2022-01-10 18:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Profile' is clicked on
+
+2022-01-10 18:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Admin User Public profile/a_Edit profile")): Object: 'Object Repository/Page_Admin User Public profile/a_Edit profile' is clicked on
+
+2022-01-10 18:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin User Public profile/a_Edit profile' is clicked on
+
+2022-01-10 18:36:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Anh Lee Edit profile/input_Address_cancel"), 0): Scroll to object 'Object Repository/Page_Anh Lee Edit profile/input_Address_cancel' successfully
+
+2022-01-10 18:36:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-10 18:36:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Anh Lee Edit profile/input_Address_cancel' successfully
+
+2022-01-10 18:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Anh Lee Edit profile/input_Address_cancel")): Object: 'Object Repository/Page_Anh Lee Edit profile/input_Address_cancel' is clicked on
+
+2022-01-10 18:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Anh Lee Edit profile/input_Address_cancel' is clicked on
+
+2022-01-10 18:36:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:36:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/I2/Edit my profile" time="11.395" classname="Test Cases/I2/Edit my profile" status="PASSED">
+         <system-out><![CDATA[2022-01-10 18:36:15 - [TEST_CASE][PASSED] - Test Cases/I2/Edit my profile: Test Cases/I2/Edit my profile
+
+2022-01-10 18:36:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-10 18:36:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-10 18:36:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-10 18:36:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-10 18:36:17 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/"): Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:36:18 - [MESSAGE][PASSED] - Navigate to 'http://localhost/' successfully
+
+2022-01-10 18:36:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh/a_Log in")): Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh/a_Log in' is clicked on
+
+2022-01-10 18:36:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Username_username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:36:20 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'
+
+2022-01-10 18:36:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/input_Password_password"), "eGmz8XUbrLe3vUQiiiujBg=="): Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:36:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'
+
+2022-01-10 18:36:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_L Tm Anh Log in to the site/button_Log in")): Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:36:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_L Tm Anh Log in to the site/button_Log in' is clicked on
+
+2022-01-10 18:36:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_AU")): Object: 'Object Repository/Page_Dashboard/a_AU' is clicked on
+
+2022-01-10 18:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_AU' is clicked on
+
+2022-01-10 18:36:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/a_Profile")): Object: 'Object Repository/Page_Dashboard/a_Profile' is clicked on
+
+2022-01-10 18:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/a_Profile' is clicked on
+
+2022-01-10 18:36:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Admin User Public profile/a_Edit profile")): Object: 'Object Repository/Page_Admin User Public profile/a_Edit profile' is clicked on
+
+2022-01-10 18:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Admin User Public profile/a_Edit profile' is clicked on
+
+2022-01-10 18:36:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Page_Anh Lee Edit profile/input_Address_submitbutton"), 0): Scroll to object 'Object Repository/Page_Anh Lee Edit profile/input_Address_submitbutton' successfully
+
+2022-01-10 18:36:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-01-10 18:36:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Anh Lee Edit profile/input_Address_submitbutton' successfully
+
+2022-01-10 18:36:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Anh Lee Edit profile/input_Address_submitbutton")): Object: 'Object Repository/Page_Anh Lee Edit profile/input_Address_submitbutton' is clicked on
+
+2022-01-10 18:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Anh Lee Edit profile/input_Address_submitbutton' is clicked on
+
+2022-01-10 18:36:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-10 18:36:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-10 17:57:05 - [TEST_SUITE][FAILED] - Iteration 1: Test Cases/Chat/Search user and chat FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Dashboard/a_Anh Lee'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Search user and chat.run(Search user and chat:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641812218622.run(TempTestSuite1641812218622.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-5O7CBM9', ip: '192.168.16.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\antra\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2100eed7104cfb590ef3350404125395
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-01-10 17:57:05 - [TEST_SUITE][FAILED] - Iteration 1: Test Cases/Chat/Search user and chat FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Dashboard/a_Anh Lee'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Search user and chat.run(Search user and chat:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1641812218622.run(TempTestSuite1641812218622.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-5O7CBM9', ip: '192.168.16.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\antra\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55834}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2100eed7104cfb590ef3350404125395
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

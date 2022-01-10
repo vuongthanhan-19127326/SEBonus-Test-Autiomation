@@ -1,0 +1,294 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_0",
+      "brokenLocator": "//a[@id\u003d\u0027message-drawer-toggle-61dc107224f9a61dc1072131d45\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027usernavigation\u0027]/div[2]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/a_0_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/div_L CDE",
+      "brokenLocator": "//div[@id\u003d\u0027view-overview-favourites-target-61dc107227d7461dc1072131d47\u0027]/div[2]/a/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Starred\u0027])[1]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/div_L CDE_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_f30280",
+      "brokenLocator": "//textarea[@id\u003d\u0027yui_3_17_2_1_1641812082235_35\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_f30280_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/button__btn btn-link btn-icon icon-size-3 m_754a09",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641812082235_36\u0027]/div/button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027😠\u0027])[1]/following::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/button__btn btn-link btn-icon icon-size-3 m_754a09_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/div_Team 1",
+      "brokenLocator": "//div[@id\u003d\u0027view-overview-group-messages-target-61d99a8c1b06361d99a8a88c6d7\u0027]/div[2]/a/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Group\u0027])[1]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/div_Team 1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_167f3b",
+      "brokenLocator": "//textarea[@id\u003d\u0027yui_3_17_2_1_1641650828764_35\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_167f3b_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641809714717_40\u0027]/div/button[2]/span/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[2]/span/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/i__icon fa fa-paper-plane fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/div_Student Two",
+      "brokenLocator": "//div[@id\u003d\u0027view-overview-messages-target-61dc0732a02da61dc07328cc3c7\u0027]/div[2]/a/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Private\u0027])[1]/following::div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/div_Student Two_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_1c2d5d",
+      "brokenLocator": "//textarea[@id\u003d\u0027yui_3_17_2_1_1641809714717_39\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_1c2d5d_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw",
+      "brokenLocator": "//a[@id\u003d\u0027message-drawer-toggle-61da31feb585e61da31fe9dea25\u0027]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/i_See all_icon fa fa-comment-o fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641689598842_31\u0027]/div[4]/div/div/div/button/span/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/span/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/i_Messages selected_icon fa fa-search fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_Anh Lee",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641689598842_26\u0027]/div[6]/div/div/div/div[2]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Non-contacts\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/a_Anh Lee_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_9e4947",
+      "brokenLocator": "//textarea[@id\u003d\u0027yui_3_17_2_1_1641689351127_51\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/textarea_Use enter to send_yui_3_17_2_1_164_9e4947_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_Student One",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641386046992_25\u0027]/div[6]/div/div/div/div[2]/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Non-contacts\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/a_Student One_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_Contacts                                 _4239a2",
+      "brokenLocator": "//div[@id\u003d\u0027message-drawer-61d55e0da414861d55e0d8b2d37\u0027]/div[2]/div[3]/div[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Contacts\u0027])[1]/following::a[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/a_Contacts                                 _4239a2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_Requests                                 _76dac8",
+      "brokenLocator": "//a[@id\u003d\u0027requests-tab-61d55e0da414861d55e0d8b2d37\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Contacts\u0027])[2]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/a_Requests                                 _76dac8_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/p_Would like to contact you",
+      "brokenLocator": "//div[@id\u003d\u0027requests-tab-panel-61d55e0da414861d55e0d8b2d37\u0027]/div[2]/a/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Admin User\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/p_Would like to contact you_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/span_Accept and add to contacts",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641373197849_26\u0027]/div[3]/div/div[2]/div/button[8]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Send contact request\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/span_Accept and add to contacts_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/i__icon fa fa-chevron-right fa-fw",
+      "brokenLocator": "//div[@id\u003d\u0027view-overview-messages-target-61d5c032d7e3961d5c032c12767\u0027]/div[2]/a/div[2]/div[2]/div/span/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div[2]/div[2]/a/div[2]/div[2]/div/span/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/i__icon fa fa-chevron-right fa-fw_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/span_Remove",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641398322952_26\u0027]/div[3]/div/div[2]/div/button[3]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Unblock\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/span_Remove_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/button_Cancel",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[22]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OK\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/button_Cancel_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/a_Student Two",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641382110919_25\u0027]/div[6]/div/div/div/div[2]/div/a[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Student\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/a_Student Two_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/span_Unblock user",
+      "brokenLocator": "//div[@id\u003d\u0027message-drawer-61d57004667c961d570045584c7\u0027]/div[4]/div/div[4]/div/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Send contact request\u0027])[2]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/span_Unblock user_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/span_Unblock",
+      "brokenLocator": "//div[@id\u003d\u0027yui_3_17_2_1_1641376457670_26\u0027]/div[3]/div/div[2]/div/button[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Block\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/span_Unblock_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_L Tm Anh/a_Log in",
+      "brokenLocator": "//div[@id\u003d\u0027usernavigation\u0027]/div/div/span/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Log in\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_L Tm Anh/a_Log in_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/button_New event",
+      "brokenLocator": "//div[@id\u003d\u0027calendar-month-61d588d0368e361d588d02f85e2-1\u0027]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027List of courses\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/button_New event_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/button_Save",
+      "brokenLocator": "//button[@id\u003d\u0027yui_3_17_2_1_1641384144308_192\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Repeat weekly, creating altogether\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/button_Save_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/span_",
+      "brokenLocator": "//span[@id\u003d\u0027form_autocomplete_downarrow-1641383885384\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027No selection\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/span__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Dashboard/li_1",
+      "brokenLocator": "//li[@id\u003d\u0027form_autocomplete_suggestions-1641366360473-0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027▼\u0027])[2]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220110_175658/Iteration 1/20220110_175658/Object Repository/Page_Dashboard/li_1_neighbor.png"
+    }
+  ]
+}
