@@ -6,12 +6,12 @@
    <elementGuidId>b5ded23f-fa37-4fda-a417-30fa7df9794e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#yui_3_17_2_1_1641790759958_339</value>
+         <key>XPATH</key>
+         <value>//input[@id='yui_3_17_2_1_1641855422405_351']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='yui_3_17_2_1_1641790759958_339']</value>
+         <key>CSS</key>
+         <value>#yui_3_17_2_1_1641855422405_351</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>yui_3_17_2_1_1641790759958_339</value>
+      <value>yui_3_17_2_1_1641855422405_351</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,21 +70,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641790759958_339&quot;)</value>
+      <value>id(&quot;yui_3_17_2_1_1641855422405_351&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='yui_3_17_2_1_1641790759958_339']</value>
+      <value>//input[@id='yui_3_17_2_1_1641855422405_351']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641790759958_340']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1641855422405_352']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

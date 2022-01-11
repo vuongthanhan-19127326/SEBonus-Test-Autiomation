@@ -6,12 +6,12 @@
    <elementGuidId>7389ee55-e4f0-4e36-ab1f-80a7212f2233</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.card-img.dashboard-card-img</value>
+         <key>XPATH</key>
+         <value>//div[@id='page-container-0']/div/div/div/a/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='yui_3_17_2_1_1641802058145_33']/a/div</value>
+         <key>CSS</key>
+         <value>div.card-img.dashboard-card-img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -44,14 +44,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641802058145_33&quot;)/a[1]/div[@class=&quot;card-img dashboard-card-img&quot;]</value>
+      <value>id(&quot;page-container-0&quot;)/div[1]/div[@class=&quot;card-deck dashboard-card-deck&quot;]/div[@class=&quot;card dashboard-card&quot;]/a[1]/div[@class=&quot;card-img dashboard-card-img&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641802058145_33']/a/div</value>
+      <value>//div[@id='page-container-0']/div/div/div/a/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

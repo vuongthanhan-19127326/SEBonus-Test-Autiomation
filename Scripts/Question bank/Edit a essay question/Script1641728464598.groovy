@@ -23,7 +23,7 @@ WebUI.navigateToUrl('http://localhost/')
 
 WebUI.click(findTestObject('Object Repository/Page_L Tm Anh/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'), 'anhle2')
+WebUI.setText(findTestObject('Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'), 'beta')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'), 'eGmz8XUbrLe3vUQiiiujBg==')
 
@@ -43,13 +43,9 @@ WebUI.click(findTestObject('Object Repository/Page_Edit questions/a_Edit'))
 
 WebUI.click(findTestObject('Object Repository/Page_Edit questions/a_Edit question'))
 
-WebUI.click(findTestObject('Object Repository/Page_Editing an Essay question/div_Current category                       _a1babe'))
+WebUI.click(findTestObject('Object Repository/Page_Editing an Essay question/div_Question name'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Editing an Essay question/input_Question name_name'), 'Anh le la ai')
-
-WebUI.click(findTestObject('Object Repository/Page_Editing an Essay question/div_Question text                          _7bc60a'))
-
-WebUI.scrollToElement(findTestObject('Object Repository/Page_Editing an Essay question/input_Preview_submitbutton'), 0)
+WebUI.setText(findTestObject('Object Repository/Page_Editing an Essay question/input_Question name_name'), 'Quiz 5')
 
 WebUI.click(findTestObject('Object Repository/Page_Editing an Essay question/input_Preview_submitbutton'))
 

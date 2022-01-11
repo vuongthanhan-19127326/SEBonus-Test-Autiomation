@@ -83,7 +83,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641774104968_504']/div[3]</value>
+      <value>//div[@id='yui_3_17_2_1_1641855771959_507']/div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

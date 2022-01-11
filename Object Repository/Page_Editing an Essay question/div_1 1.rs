@@ -6,12 +6,12 @@
    <elementGuidId>b81e14a4-0b6b-49e1-be6a-5f1428b51090</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//body[@id='page-question-type-essay']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

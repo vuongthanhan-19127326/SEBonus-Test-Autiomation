@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/question/bank/deletequestion/delete.php?deleteselected=22&amp;q22=1&amp;sesskey=lPblEZ6aJE&amp;courseid=3&amp;returnurl=%2Fquestion%2Fedit.php%3Fcourseid%3D3</value>
+      <value>http://localhost/question/bank/deletequestion/delete.php?deleteselected=102&amp;q102=1&amp;sesskey=xbj1Sinngr&amp;courseid=3&amp;returnurl=%2Fquestion%2Fedit.php%3Fcourseid%3D3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,13 +101,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/question/bank/deletequestion/delete.php?deleteselected=22&amp;q22=1&amp;sesskey=lPblEZ6aJE&amp;courseid=3&amp;returnurl=%2Fquestion%2Fedit.php%3Fcourseid%3D3']</value>
+      <value>//a[@href='http://localhost/question/bank/deletequestion/delete.php?deleteselected=102&amp;q102=1&amp;sesskey=xbj1Sinngr&amp;courseid=3&amp;returnurl=%2Fquestion%2Fedit.php%3Fcourseid%3D3']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[4]/div/div/div/div/div/a[5]</value>
+      <value>//a[5]</value>
    </webElementXpaths>
 </WebElementEntity>

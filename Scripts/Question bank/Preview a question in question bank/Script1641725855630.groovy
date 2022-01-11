@@ -23,7 +23,7 @@ WebUI.navigateToUrl('http://localhost/')
 
 WebUI.click(findTestObject('Object Repository/Page_L Tm Anh/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'), 'admin')
+WebUI.setText(findTestObject('Object Repository/Page_L Tm Anh Log in to the site/input_Username_username'), 'beta')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_L Tm Anh Log in to the site/input_Password_password'), 'eGmz8XUbrLe3vUQiiiujBg==')
 
@@ -33,15 +33,19 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_My courses'))
 
 WebUI.click(findTestObject('Object Repository/Page_My courses/div_Course image'))
 
-WebUI.click(findTestObject('Object Repository/Page_Course 1/a_Quiz 3'))
+WebUI.click(findTestObject('Object Repository/Page_Course 2/a_More'))
 
-WebUI.click(findTestObject('Object Repository/Page_1 Quiz 3/a_Preview quiz'))
+WebUI.click(findTestObject('Object Repository/Page_Course 2/a_Question bank'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Quiz 3/div_1 1'), '1 <p>1</p>')
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Edit questions/a_Edit'), 0)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Page_Quiz 3/input_Rich text editor_next'), 0)
+WebUI.click(findTestObject('Object Repository/Page_Edit questions/a_Edit'))
 
-WebUI.click(findTestObject('Object Repository/Page_Quiz 3/input_Rich text editor_next'))
+WebUI.click(findTestObject('Object Repository/Page_Edit questions/span_Preview'))
+
+WebUI.click(findTestObject('Object Repository/Page_Preview question Quiz 5/input_Rich text editor_finish'))
+
+WebUI.click(findTestObject('Object Repository/Page_Preview question Quiz 5/a_Close preview'))
 
 WebUI.closeBrowser()
 

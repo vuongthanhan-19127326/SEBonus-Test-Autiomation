@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://localhost/question/bank/editquestion/question.php?returnurl=%2Fquestion%2Fedit.php%3Fcourseid%3D3&amp;courseid=3&amp;id=28&amp;makecopy=1</value>
+      <value>http://localhost/question/bank/editquestion/question.php?returnurl=%2Fquestion%2Fedit.php%3Fcourseid%3D3&amp;courseid=3&amp;id=102&amp;makecopy=1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Anh le la ai'])[1]/following::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quiz 5'])[1]/following::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://localhost/question/bank/editquestion/question.php?returnurl=%2Fquestion%2Fedit.php%3Fcourseid%3D3&amp;courseid=3&amp;id=28&amp;makecopy=1']</value>
+      <value>//a[@href='http://localhost/question/bank/editquestion/question.php?returnurl=%2Fquestion%2Fedit.php%3Fcourseid%3D3&amp;courseid=3&amp;id=102&amp;makecopy=1']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

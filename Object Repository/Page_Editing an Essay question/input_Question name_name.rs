@@ -6,12 +6,12 @@
    <elementGuidId>0a32162c-a06d-425d-bbb1-5a2c709387cb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#id_name</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='id_name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#id_name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -54,6 +54,13 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Quiz 5</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>size</name>
       <type>Main</type>
       <value>50</value>
@@ -64,6 +71,13 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>255</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-initial-value</name>
+      <type>Main</type>
+      <value>Quiz 5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +98,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='yui_3_17_2_1_1641790766274_1604']/input</value>
+      <value>//div[@id='yui_3_17_2_1_1641855771959_1727']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

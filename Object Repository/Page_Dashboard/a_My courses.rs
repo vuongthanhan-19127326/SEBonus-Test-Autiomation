@@ -6,12 +6,12 @@
    <elementGuidId>c6b4efc4-4e98-4635-81a3-0126e486b9b5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//ul[@id='moremenu-61dcbbff9f06e-navbar-nav']/li[3]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@id='moremenu-61dbe947424f6-navbar-nav']/li[3]/a</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -65,14 +65,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;moremenu-61dbe947424f6-navbar-nav&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <value>id(&quot;moremenu-61dcbbff9f06e-navbar-nav&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='moremenu-61dbe947424f6-navbar-nav']/li[3]/a</value>
+      <value>//ul[@id='moremenu-61dcbbff9f06e-navbar-nav']/li[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,14 +100,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Site administration'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/preceding::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You have no notifications'])[1]/preceding::a[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

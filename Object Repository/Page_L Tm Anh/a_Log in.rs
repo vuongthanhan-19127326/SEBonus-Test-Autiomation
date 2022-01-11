@@ -6,12 +6,12 @@
    <elementGuidId>9bad58f0-5bae-4b04-814c-f61a759795b4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.login.pl-2 > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='usernavigation']/div/div/span/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.login.pl-2 > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

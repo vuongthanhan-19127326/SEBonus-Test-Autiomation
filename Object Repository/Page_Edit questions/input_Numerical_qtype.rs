@@ -6,12 +6,12 @@
    <elementGuidId>e4e68ab3-0d3b-4f67-8229-4b5027facb03</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#item_qtype_essay</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='item_qtype_essay']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#item_qtype_essay</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//label[@id='yui_3_17_2_1_1641790759958_330']/input</value>
+      <value>//label[@id='yui_3_17_2_1_1641855422405_343']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

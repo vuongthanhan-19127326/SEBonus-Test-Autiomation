@@ -6,12 +6,12 @@
    <elementGuidId>6eb74a98-472c-434c-bedd-45ac99e2334f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.nav-item > a.dropdown-item</value>
+         <key>XPATH</key>
+         <value>//li[@id='yui_3_17_2_1_1641856005443_47']/ul/li/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='yui_3_17_2_1_1641790757399_47']/ul/li/a</value>
+         <key>CSS</key>
+         <value>a.dropdown-item</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -72,14 +72,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;yui_3_17_2_1_1641790757399_47&quot;)/ul[@class=&quot;dropdown-menu dropdown-menu-left show&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;dropdown-item&quot;]</value>
+      <value>id(&quot;yui_3_17_2_1_1641856005443_47&quot;)/ul[@class=&quot;dropdown-menu dropdown-menu-left show&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;dropdown-item&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='yui_3_17_2_1_1641790757399_47']/ul/li/a</value>
+      <value>//li[@id='yui_3_17_2_1_1641856005443_47']/ul/li/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grades'])[2]/following::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grades'])[1]/following::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
